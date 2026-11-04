@@ -1,28 +1,43 @@
 # WWDC MCP support
 
-Public support for the read-only WWDC, Apple documentation, Swift and App Review research MCP.
+Report missing Apple sources, outdated results, incorrect citations or MCP connection problems.
 
-**[Browse and search issues](https://github.com/jabbertones-cloud/wwdc-support/issues)** | **[Report a bug](https://github.com/jabbertones-cloud/wwdc-support/issues/new/choose)**
+**[Search issues](https://github.com/jabbertones-cloud/wwdc-support/issues)** · **[Report a bug](https://github.com/jabbertones-cloud/wwdc-support/issues/new/choose)** · **[Read agent instructions](AGENT-GITHUB-ISSUES.md)**
 
-This is the public support and bug-tracking repository. It intentionally contains no application source and starts with **zero issues**. It holds a README, agent instructions and issue templates. The product source remains in its existing repository.
+## Find an answer first
 
-## Request help
+Search the [open and closed issues](https://github.com/jabbertones-cloud/wwdc-support/issues?q=is%3Aissue) for your symptom or MCP tool name. You may find a workaround without opening a new report.
 
-Before reporting, search open and closed issues for the symptom or MCP tool name. Include a plain-language summary, expected and observed behavior, sanitized steps to reproduce, relevant MCP client and version, and whether the problem is repeatable. Use the issue form for bugs and feature requests.
+- [Troubleshooting](docs/troubleshooting.md)
+- [FAQ](docs/faq.md)
 
-## Support through an AI agent
+## Report a problem
 
-An agent can use [GitHub's official MCP server](https://github.com/github/github-mcp-server) or the user's authenticated GitHub CLI to search and read issues, file a report when the user asks, and reply to existing issues. Read [AGENTS.md](AGENTS.md) for the exact workflow. The WWDC MCP MCP does **not** embed an owner GitHub token and does not grant agents GitHub access automatically.
+1. Select **Report a bug** and choose the matching issue form.
+2. Include the tool name, the query, MCP client and server version if known. For missing or stale results, include a public Apple source URL and the non-sensitive result of `wwdc_ingest_status`, if available.
+3. Remove passwords, access tokens, customer information, private source code, screenshots with personal data and raw logs before posting.
+4. Submit and keep the issue URL so you or your agent can check replies.
 
-If GitHub is not connected, the agent must prepare a redacted issue title and body with a link to the new-issue form, not claim it created an issue.
+**Do not publish private or security information.** Use [private product support](https://wwdcmcp.smatdesigns.com/support) when the details cannot be shared publicly. Read [Security](SECURITY.md) before reporting a vulnerability.
 
-## Public safety
+## Use an AI agent to get help
 
-Never post Apple credentials, private code, unpublished App Store Connect records, account identifiers, device IDs, access tokens, or customer data. For suspected security vulnerabilities, use a private disclosure channel, not a public issue.
+An agent with a separately authorized GitHub connection can search issues, read the full discussion, prepare a safe report and, when requested, create an issue or post a reply. The maintained [GitHub MCP Server](https://github.com/github/github-mcp-server) exposes these issue operations. The product MCP does **not** automatically give the agent GitHub permissions.
 
-WWDC MCP is an independent community project, not Apple. Support responses cannot modify App Store Connect and must distinguish corpus freshness from official current platform state.
+Ask your agent: **"Check existing WWDC MCP support issues for this error and tell me whether there is a fix or workaround."**
 
-## Project
+To file a report, ask: **"Prepare a public bug report with safe details. Search for duplicates, then file it using my GitHub connection."**
 
-- Product source: `jabbertones-cloud/wwdc-mcp-server` (the source repository may have different visibility)
-- Issue tracker: https://github.com/jabbertones-cloud/wwdc-support/issues
+If GitHub is not connected, your agent can prepare a report and give you the [new issue form](https://github.com/jabbertones-cloud/wwdc-support/issues/new/choose). It must not claim a ticket was created.
+
+Read [Agent workflow](AGENTS.md) and [GitHub issue operations](AGENT-GITHUB-ISSUES.md).
+
+## What happens next
+
+You can track an issue and respond in its GitHub thread. A maintainer may ask for a minimal reproduction, share a workaround or request a new test. There is no guaranteed response time. A report is not fixed until the affected behavior has been independently checked.
+
+WWDC MCP is independent and is not endorsed by Apple. It searches public developer material. It does not connect to private App Store Connect accounts or submit apps.
+
+## Contribute
+
+Corrections and reusable troubleshooting notes are welcome. See [Contributing](CONTRIBUTING.md) and [Support policy](SUPPORT.md).
