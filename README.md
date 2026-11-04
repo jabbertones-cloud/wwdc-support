@@ -1,45 +1,38 @@
-# WWDC MCP Support & Apple Developer Knowledge Base
+# AppDev Atlas Support
 
-Authoritative search, source citations, and agent assistance for **[WWDC MCP Server](https://wwdcmcp.smatdesigns.com/)** — Model Context Protocol intelligence covering Apple WWDC20–WWDC26 session transcripts, Human Interface Guidelines (HIG), Swift evolution, API diffs, and sample code for AI coding agents.
+**AppDev Atlas** is an independent Apple-platform research MCP from **SMAT Designs**. It helps coding agents search and cite publicly available WWDC sessions, Apple Developer documentation, Human Interface Guidelines, Swift Evolution, API guidance, and sample code. AppDev Atlas is not affiliated with or endorsed by Apple or OpenAI.
 
-**[Search issues](https://github.com/jabbertones-cloud/wwdc-support/issues)** · **[Report a bug](https://github.com/jabbertones-cloud/wwdc-support/issues/new/choose)** · **[Read agent instructions](AGENT-GITHUB-ISSUES.md)** · **[Live Endpoint](https://wwdc-mcp.smatdesigns.com/)**
+This is the public support repository for AppDev Atlas. The legacy repository name `wwdc-support` and technical MCP identifiers are retained for compatibility; they are not the current product name.
 
----
+**[Search support issues](https://github.com/jabbertones-cloud/wwdc-support/issues)** | **[Report a bug](https://github.com/jabbertones-cloud/wwdc-support/issues/new/choose)** | **[Support website](https://wwdcmcp.smatdesigns.com/support)** | **[Agent issue workflow](AGENT-GITHUB-ISSUES.md)**
 
-## Authoritative Apple Developer Intelligence & Links
+## Product and documentation
 
-WWDC MCP exposes 45+ read-only tools indexing official Apple developer documentation and session media:
+- [AppDev Atlas website](https://wwdcmcp.smatdesigns.com/): capabilities, independent-service information, and support
+- [Hosted MCP endpoint](https://wwdc-mcp.smatdesigns.com/mcp): backward-compatible remote MCP URL
+- [Open-source server](https://github.com/jabbertones-cloud/wwdc-mcp-server): implementation, client setup, and tests
+- [Main README](https://github.com/jabbertones-cloud/wwdc-mcp-server#readme): installation, technical IDs, and source coverage
+- [FAQ](docs/faq.md) and [troubleshooting](docs/troubleshooting.md): help with connections and results
 
-### Core Surfaces & References
-- **[WWDC MCP Live Service](https://wwdc-mcp.smatdesigns.com/)** — Streamable HTTP / stdio MCP server for Apple platform development.
-- **[GitHub Repository](https://github.com/jabbertones-cloud/wwdc-mcp-server)** — Open-source server implementation, test suites, and schema validation.
-- **[WWDC Session Corpus](https://wwdc-mcp.smatdesigns.com/)** — Over 1,400 sessions from WWDC 2020 through WWDC 2026 with exact timestamped citations.
-- **[Apple HIG & Design Guidance](https://wwdc-mcp.smatdesigns.com/)** — Structured human interface principles for iOS, iPadOS, macOS, watchOS, and visionOS.
-- **[Swift & Framework Evolution](https://wwdc-mcp.smatdesigns.com/)** — Deprecations, SDK additions, and Swift 6 concurrency migration playbooks.
+AppDev Atlas exposes **45 read-only research tools**. Its Apple-platform sources include WWDC 2020 through 2026, HIG, Swift language and evolution guidance, Apple documentation, and App Store Review Guidelines. These are indexed public sources, not private Apple account access. Check corpus freshness and the original source when accuracy matters.
 
----
+## Find an answer first
 
-## Find an Answer First
+Search [open and closed issues](https://github.com/jabbertones-cloud/wwdc-support/issues?q=is%3Aissue) using your error message, tool name, or source URL. Read the [FAQ](docs/faq.md) and [troubleshooting guide](docs/troubleshooting.md) before filing duplicates.
 
-Search [open and closed issues](https://github.com/jabbertones-cloud/wwdc-support/issues?q=is%3Aissue) for your query or tool name:
+## Report a problem or request a feature
 
-- [Troubleshooting Connection & stdio](docs/troubleshooting.md)
-- [Frequently Asked Questions (FAQ)](docs/faq.md)
+1. Open the [issue form](https://github.com/jabbertones-cloud/wwdc-support/issues/new/choose) and choose a bug report or feature request.
+2. Describe what you expected, what happened, how to reproduce it, the MCP client, and the relevant tool and version. For missing or outdated content, link to the public developer.apple.com source.
+3. Remove passwords, tokens, private source code, personal details, Apple account records, and raw logs before submitting.
+4. Save the issue URL to follow maintainer responses. A merged PR does not guarantee a live fix.
 
-## Report a Problem
+You can read public issues without a GitHub sign-in. Creating or replying to issues requires **your own authorized GitHub account**; AppDev Atlas never supplies or embeds a shared GitHub owner token.
 
-1. Click **[Report a bug](https://github.com/jabbertones-cloud/wwdc-support/issues/new/choose)** to open an issue.
-2. Include the tool name, search query, MCP client (Cursor, Claude Desktop, ChatGPT, Antigravity), and server version. For missing or stale docs, provide the public developer.apple.com URL.
-3. **No credentials needed:** WWDC MCP operates entirely on public developer information. Never submit private source code or Apple Account credentials.
-4. Keep the issue link for tracking updates and fixes.
+For sensitive requests and possible vulnerabilities, use [private product support](https://wwdcmcp.smatdesigns.com/support) and follow the [security policy](SECURITY.md). Do not post sensitive information in a public issue.
 
-> **Private Contact:** If necessary, reach out via **[WWDC Support](https://wwdcmcp.smatdesigns.com/support)**. Follow [Security Policy](SECURITY.md) for vulnerability reports.
+## AI agent support
 
-## AI Agent Integration
+With a separately connected, authorized GitHub MCP or connector, an agent can search, read, draft, create, and reply to support issues. It must check for duplicates, sanitize submissions, and obtain authorization before publishing. The product's 45 research tools do not grant GitHub write access.
 
-Agents with GitHub MCP tools can search and interact with this repository:
-- **Search:** *"Search WWDC MCP support issues for 'SwiftData relationship cascade query' solutions."*
-- **Draft:** *"Create a bug report draft citing the missing Apple developer documentation link."*
-- **Submit:** *"Post this report to jabbertones-cloud/wwdc-support using my authorized GitHub connection."*
-
-Review [Agent Workflow](AGENTS.md) and [GitHub Issue Operations](AGENT-GITHUB-ISSUES.md).
+Follow [AGENTS.md](AGENTS.md) and [GitHub Issue Operations](AGENT-GITHUB-ISSUES.md). Keep the issue tracker reserved for genuine user reports, not artificial test tickets.
