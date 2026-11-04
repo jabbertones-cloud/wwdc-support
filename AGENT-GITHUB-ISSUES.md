@@ -1,6 +1,6 @@
-# GitHub Issues support for AI agents
+# AppDev Atlas: GitHub Issues support for AI agents
 
-This public support repository is `jabbertones-cloud/wwdc-support`. Its **Issues** page is https://github.com/jabbertones-cloud/wwdc-support/issues. The product source is separate. The issue tracker is intentionally empty until a real user submits a report.
+AppDev Atlas is an independent Apple-platform research MCP by SMAT Designs, not affiliated with or endorsed by Apple or OpenAI. Its public support repository is `jabbertones-cloud/wwdc-support`. Its **Issues** page is https://github.com/jabbertones-cloud/wwdc-support/issues. The product source is separate. The issue tracker is intentionally empty until a real user submits a report.
 
 ## Supported agent operations
 
