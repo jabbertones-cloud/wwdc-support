@@ -6,4 +6,4 @@ For a possible vulnerability or other sensitive case, use the product's [private
 
 If sensitive material has already been published, stop reposting it and contact private support. Rotate any exposed credentials with their issuing provider.
 
-WWDC MCP is independent of Apple, uses public research material only and cannot access private App Store Connect accounts. Include a public Apple URL when documenting source drift.
+AppDev Atlas is independent of Apple, uses public research material only and cannot access private App Store Connect accounts. Include a public Apple URL when documenting source drift.
