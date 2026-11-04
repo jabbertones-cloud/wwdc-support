@@ -1,5 +1,5 @@
 name: Feature request
-description: Suggest an improvement to WWDC MCP without sharing private information
+description: Suggest an improvement to AppDev Atlas without sharing private information
 title: "[Feature] "
 body:
   - type: markdown
