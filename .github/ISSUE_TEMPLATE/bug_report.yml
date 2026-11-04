@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a reproducible WWDC MCP issue without private data
+description: Report a reproducible AppDev Atlas issue without private data
 title: "[Bug] "
 labels: []
 body:
@@ -35,7 +35,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: WWDC MCP version (if known)
+      label: AppDev Atlas version (if known)
   - type: checkboxes
     id: privacy
     attributes:
