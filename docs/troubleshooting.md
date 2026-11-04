@@ -1,4 +1,4 @@
-# Troubleshooting WWDC MCP
+# Troubleshooting AppDev Atlas
 
 The public tracker covers public WWDC, Apple Developer documentation and Swift research. Start with the symptom, not a guessed root cause.
 
@@ -18,4 +18,4 @@ Search the [open and closed issues](https://github.com/jabbertones-cloud/wwdc-su
 
 Open [New issue](https://github.com/jabbertones-cloud/wwdc-support/issues/new/choose), choose the bug form and include minimal reproduction details. An agent with the official GitHub MCP can search, read, create when authorized and comment. If GitHub is disconnected, the agent should return a draft instead of claiming it posted one.
 
-WWDC MCP is independent of Apple, uses public research material only and cannot access private App Store Connect accounts. Include a public Apple URL when documenting source drift.
+AppDev Atlas is independent of Apple, uses public research material only and cannot access private App Store Connect accounts. Include a public Apple URL when documenting source drift.
