@@ -4,7 +4,7 @@
 
 This is the public support repository for AppDev Atlas. The legacy repository name `wwdc-support` and technical MCP identifiers are retained for compatibility; they are not the current product name.
 
-**[Search support issues](https://github.com/jabbertones-cloud/wwdc-support/issues)** | **[Report a bug](https://github.com/jabbertones-cloud/wwdc-support/issues/new/choose)** | **[Support website](https://wwdcmcp.smatdesigns.com/support)** | **[Agent issue workflow](AGENT-GITHUB-ISSUES.md)**
+**[Release and plugin status](docs/release-status-2026-11-17.md)** | **[Search support issues](https://github.com/jabbertones-cloud/wwdc-support/issues)** | **[Report a bug](https://github.com/jabbertones-cloud/wwdc-support/issues/new/choose)** | **[Support website](https://wwdcmcp.smatdesigns.com/support)** | **[Agent issue workflow](AGENT-GITHUB-ISSUES.md)**
 
 ## Product and documentation
 
@@ -15,6 +15,10 @@ This is the public support repository for AppDev Atlas. The legacy repository na
 - [FAQ](docs/faq.md) and [troubleshooting](docs/troubleshooting.md): help with connections and results
 
 AppDev Atlas exposes **45 read-only research tools**. Its Apple-platform sources include WWDC 2020 through 2026, HIG, Swift language and evolution guidance, Apple documentation, and App Store Review Guidelines. These are indexed public sources, not private Apple account access. Check corpus freshness and the original source when accuracy matters.
+
+## Current plugin version
+
+**AppDev Atlas v0.2.6 is published** ([direct listing](https://chatgpt.com/plugins/plugin_asdk_app_6ad90350c9fc8191abcbd6ccd10052c9)). v0.2.7 source packaging and two task-specific skills have merged into the server repository, but upload and publication of that version are separate. See [dated release status](docs/release-status-2026-11-17.md) before citing the latest available plugin version.
 
 ## Find an answer first
 
